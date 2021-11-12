@@ -26,6 +26,12 @@
             "translatable": true
           }
         },
+        "_columns": {
+          "type": "number",
+          "title": "Columns",
+          "description": "Set the number of columns. If value is '0', component uses the default layout",
+          "default": 1
+        },
         "_attempts": {
           "type": "number",
           "title": "Allowed attempts",

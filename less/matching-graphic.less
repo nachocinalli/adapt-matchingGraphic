@@ -1,16 +1,15 @@
 .matchinggraphic {
 
   .matching {
-    &__item-graphic {
-      padding: 1rem;
+    &__item-title,&__item-graphic,&__select-container {
+      padding: 0.5rem;
     }
   }
-  &.has-columns {
+  &.has-column-layout {
     .matching__widget {
       display: flex;
-      .matching__select-container{
-        padding: 0 1rem;
-      }
+      flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }

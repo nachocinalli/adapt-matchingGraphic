@@ -48,6 +48,15 @@
 			"help": "This is the instruction text",
 			"translatable": true
 		},
+		"_columns": {
+			"type": "number",
+			"required": false,
+			"default": 0,
+			"title": "Columns",
+			"inputType": "Number",
+			"validators": ["number"],
+			"help": "Set the number of columns. If value is '0', component uses the default layout."
+		},
 		"_attempts": {
 			"type": "number",
 			"required": true,
