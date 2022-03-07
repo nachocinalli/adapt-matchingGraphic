@@ -1,16 +1,14 @@
 .matchinggraphic {
-
   .matching {
-    &__item-title,&__item-graphic,&__select-container {
+    &-item__title,
+    &-item__image-container,
+    &-item__select-container {
       padding: 0.5rem;
     }
   }
-  &.has-column-layout {
-    .matching__widget {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+  .matching__widget.has-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
-
