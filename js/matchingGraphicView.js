@@ -1,4 +1,4 @@
-import MatchingView from 'components/adapt-contrib-matching/js/matchingView';
+import MatchingView from 'components/adapt-contrib-matching/js/MatchingView';
 
 class MatchingGraphicView extends MatchingView {
 
