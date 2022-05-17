@@ -157,6 +157,12 @@
                       "type": "boolean",
                       "title": "Mark this option as correct",
                       "default": false
+                    },
+                    "_score": {
+                      "type": "number",
+                      "title": "Score",
+                      "description": "If item scoring is enabled, selected item scores are summed to give the question score.",
+                      "default": 0
                     }
                   }
                 }

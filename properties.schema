@@ -221,7 +221,16 @@
 									"inputType": "Checkbox",
 									"validators": [],
 									"help": "Defines whether this option is correct or not"
-								}
+								},
+								"_score": {
+                                    "type": "number",
+                                    "required": false,
+                                    "default": 0,
+                                    "title": "Score",
+                                    "inputType": "Number",
+                                    "validators": ["required", "number"],
+                                    "help": "If item scoring is enabled, selected item scores are summed to give the question score."
+                                }
 							}
 						}
 					}
