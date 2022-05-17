@@ -134,6 +134,15 @@
 			"validators": [],
 			"help": "If disabled, recording the user's answer(s) to this question to cmi.interactions on the LMS will be disabled for this component only."
 		},
+		"_allowOnlyUniqueAnswers": {
+            "type": "boolean",
+            "required": false,
+            "default": false,
+            "title": "Unique answers only",
+            "inputType": "Checkbox",
+            "validators": [],
+            "help": "When disabled, multiple items can be selected with the same option text."
+        }
 		"placeholder": {
 			"type": "string",
 			"required": true,

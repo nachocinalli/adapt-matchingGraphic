@@ -82,6 +82,12 @@
           "description": "If disabled, recording the user's answer(s) to this question to cmi.interactions on the LMS will be disabled for this component only",
           "default": true
         },
+        "_allowOnlyUniqueAnswers": {
+          "type": "boolean",
+          "title": "Unique answers only",
+          "description": "When disabled, multiple items can be selected with the same option text.",
+          "default": false
+        },
         "placeholder": {
           "type": "string",
           "title": "Placeholder",

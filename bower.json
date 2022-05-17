@@ -1,7 +1,7 @@
 {
   "name": "adapt-matchingGraphic",
-  "version": "2.0.0",
-  "framework": ">=5.18.0",
+  "version": "3.0.0",
+  "framework": ">=5.19.1",
   "homepage": "https://github.com/nachocinalli/adapt-matchingGraphic",
   "bugs": "https://github.com/nachocinalli/adapt-matchingGraphic/issues",
   "component": "matchingGraphic",
@@ -10,7 +10,7 @@
   "description": "A question component that allows the learner to match the options to question items",
   "main": "/js/adapt-matchingGraphic.js",
   "pluginDependencies": {
-    "adapt-contrib-matching": "^6.0.0"
+    "adapt-contrib-matching": "^7.0.0"
   },
   "keywords": ["adapt-plugin", "adapt-component"],
   "license": "GPL-3.0"
