@@ -70,6 +70,11 @@
           "title": "Randomise answers",
           "default": false
         },
+        "_isItemsRandom": {
+          "type": "boolean",
+          "title": "Randomise items",
+          "default": false
+        },
         "_questionWeight": {
           "type": "number",
           "title": "Question weight",

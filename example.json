@@ -13,12 +13,15 @@
   "_shouldDisplayAttempts": false,
   "_shouldResetAllAnswers": false,
   "_isRandom": false,
+  "_isItemsRandom": true,
   "_questionWeight": 1,
   "_canShowModelAnswer": true,
   "_canShowFeedback": true,
   "_canShowMarking": true,
   "_recordInteraction": true,
   "placeholder": "Please select an option",
+  "_allowOnlyUniqueAnswers": false,
+  "_hasItemScoring": false,
   "_items": [
     {
       "text": "Pick option two",
