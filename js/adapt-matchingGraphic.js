@@ -1,8 +1,8 @@
-import Adapt from 'core/js/adapt';
+import components from 'core/js/components';
 import MatchingGraphicModel from './matchingGraphicModel';
 import MatchingGraphicView from './matchingGraphicView';
 
-export default Adapt.register('matchingGraphic', {
+export default components.register('matchingGraphic', {
   model: MatchingGraphicModel,
   view: MatchingGraphicView
 });
