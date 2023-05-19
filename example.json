@@ -22,6 +22,12 @@
   "placeholder": "Please select an option",
   "_allowOnlyUniqueAnswers": false,
   "_hasItemScoring": false,
+  "_columns": {
+    "small": 0,
+    "medium": 2,
+    "large": 3,
+    "xlarge": 4
+  },
   "_items": [
     {
       "text": "Pick option two",
