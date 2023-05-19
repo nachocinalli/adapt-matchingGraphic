@@ -1,7 +1,7 @@
 {
   "name": "adapt-matchingGraphic",
-  "version": "1.0.0",
-  "framework": ">=5.17.2",
+  "version": "3.2.0",
+  "framework": ">=5.31.4",
   "homepage": "",
   "bugs": "",
   "component": "matchingGraphic",
