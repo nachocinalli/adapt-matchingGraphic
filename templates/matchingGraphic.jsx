@@ -1,4 +1,4 @@
-import Adapt from 'core/js/adapt';
+import device from 'core/js/device';
 import React from 'react';
 import { templates, classes } from 'core/js/reactHelpers';
 
@@ -15,7 +15,8 @@ export default function MatchingGraphic(props) {
   } = props;
 
   const displayAsCorrect = (_isInteractionComplete && (_isCorrectAnswerShown || _isCorrect));
-  const hasColumns = _columns > 1;
+  const screenSize = device.screenSize;
+  const hasColumns = _columns[screenSize] > 1;
   return (
     <div className="component__inner matching__inner">
 
@@ -37,15 +38,17 @@ export default function MatchingGraphic(props) {
           const activeOption = _options.find(option => (option._itemIndex === _index) && option._isActive);
           const displayItemAsCorrect = (!_isEnabled && _canShowMarking && (_isCorrectAnswerShown || activeOption?._shouldBeSelected));
           return (
-            <div key={_index} style={(hasColumns && Adapt.device.screenSize === 'large' && { width: `${100 / _columns}%` }) || null} className={classes([
-              'matching-item',
-              'item',
-              `item-${index}`,
-              'js-matching-item',
-              displayItemAsCorrect ? 'is-correct' : 'is-incorrect'
-            ])
-
-            }>
+            <div key={_index}
+              className={classes([
+                'matching-item',
+                'item',
+                `item-${index}`,
+                'js-matching-item',
+                displayItemAsCorrect ? 'is-correct' : 'is-incorrect'
+              ])
+              }
+              style={(hasColumns && { width: `${100 / _columns[screenSize]}%` }) || null }
+            >
 
               {text &&
               <div className="matching-item__title">
